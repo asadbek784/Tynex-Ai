@@ -1,0 +1,27 @@
+name: tynex_ai
+description: Tynex AI Premium AI Agent.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+  dependencies:
+    flutter:
+        sdk: flutter
+          http: ^1.2.0
+            shared_preferences: ^2.2.3
+              flutter_markdown: ^0.7.3
+                speech_to_text: ^6.6.2
+                  image_picker: ^1.1.2
+                    flutter_highlight: ^0.7.0
+                      google_fonts: ^6.2.1
+                        permission_handler: ^11.3.1
+                          path_provider: ^2.1.4
+
+                          dev_dependencies:
+                            flutter_test:
+                                sdk: flutter
+                                  flutter_lints: ^4.0.0
+
+                                  flutter:
+                                    uses-material-design: true
